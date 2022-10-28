@@ -18,3 +18,20 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 14px;
+  transition: box-shadow, ease-in-out, 250ms;
+  cursor: pointer;
+}
+li:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
